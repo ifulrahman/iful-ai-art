@@ -63,3 +63,9 @@ body.menu-open {
   width: 100%;
   z-index: 40; /* tetap di bawah drawer (z-50) */
 }
+
+/* Hilangkan default clear button pada input[type=search] */
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
