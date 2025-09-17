@@ -1,0 +1,465 @@
+[
+  {
+    "slug": "ronaldo",
+    "title": "Cristiano Ronaldo",
+    "src": "/photos/ronaldo.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "football",
+    "tags": ["robot", "CR7", "Ronaldo", "ai"],
+    "desc": "Siiiuuuuu"
+  },
+  {
+    "slug": "ronaldo-2",
+    "title": "Cristiano Ronaldo",
+    "src": "/photos/ronaldo-2.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "football",
+    "tags": ["robot", "CR7", "Ronaldo", "ai"],
+    "desc": "P for Penaldo",
+    "featured": true
+  },
+  {
+    "slug": "messi",
+    "title": "Lionel Messi",
+    "src": "/photos/messi.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "football",
+    "tags": ["GOAT", "Messi", "Lionel Messi", "ai"],
+    "desc": "Ankara messi, angkara messi"
+  },
+  {
+    "slug": "messi-2",
+    "title": "Lionel Messi",
+    "src": "/photos/messi-2.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "football",
+    "tags": ["GOAT", "Messi", "Lionel Messi", "ai"],
+    "desc": "Greatest of all time"
+  },
+  {
+    "slug": "neymar",
+    "title": "Neymar Jr",
+    "src": "/photos/neymar.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "football",
+    "tags": ["GOAT", "Neymar", "Jogo de bola", "ai"],
+    "desc": "Para dilu baila"
+  },
+  {
+    "slug": "neymar-jr",
+    "title": "Neymar Jr",
+    "src": "/photos/neymar-2.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "football",
+    "tags": ["GOAT", "Neymar", "Jogo de bola", "ai"],
+    "desc": "Para dilu baila"
+  },
+  {
+    "slug": "gohan",
+    "title": "Gohan",
+    "src": "/photos/gohan.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "dragonball",
+    "tags": ["dragonball", "ai", "frieza", "dragon ball z"],
+    "desc": "This is Warga Namek"
+  },
+  {
+    "slug": "frieza",
+    "title": "Frieza",
+    "src": "/photos/frieza.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "dragonball",
+    "tags": ["dragonball", "ai", "frieza", "dragon ball z"],
+    "desc": "This is Warga Namek"
+  },
+  {
+    "slug": "goku",
+    "title": "Goku",
+    "src": "/photos/goku.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "dragonball",
+    "tags": ["dragonball", "ai", "Goku", "dragon ball z"],
+    "desc": "This is Warga Namek"
+  },
+  {
+    "slug": "naruto",
+    "title": "Naruto Uzumaki",
+    "src": "/photos/naruto.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "naruto",
+    "tags": ["naruto", "ai", "naruto uzumaki"],
+    "desc": "Rasengannnnn",
+    "featured": true
+  },
+  {
+    "slug": "kakashi",
+    "title": "Kakashi",
+    "src": "/photos/kakashi.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "naruto",
+    "tags": ["naruto", "ai", "kakashi"],
+    "desc": "Rasengannnnn"
+  },
+  {
+    "slug": "hinata",
+    "title": "Hinata",
+    "src": "/photos/hinata.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "naruto",
+    "tags": ["naruto", "ai", "hinata"],
+    "desc": "Rasengannnnn"
+  },
+  {
+    "slug": "luffy",
+    "title": "Luffy",
+    "src": "/photos/luffy.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "onepiece",
+    "tags": ["one piece", "ai", "luffy"],
+    "desc": "Monkey D Luffy"
+  },
+  {
+    "slug": "nami",
+    "title": "Nami",
+    "src": "/photos/nami.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "onepiece",
+    "tags": ["one piece", "ai", "nami"],
+    "desc": "Rasengannnnn"
+  },
+  {
+    "slug": "piccolo",
+    "title": "Piccolo",
+    "src": "/photos/piccolo.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "dragonball",
+    "tags": ["dragonball", "ai", "Piccolo", "dragon ball z"],
+    "desc": "This is Warga Namek"
+  },
+  {
+    "slug": "sakura",
+    "title": "Sakura",
+    "src": "/photos/sakura.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "naruto",
+    "tags": ["naruto", "ai", "sakura", "naruto uzumaki"],
+    "desc": "Janda Kembang"
+  },
+  {
+    "slug": "sanji",
+    "title": "Sanji",
+    "src": "/photos/sanji.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "onepiece",
+    "tags": ["one piece", "ai", "sanji"],
+    "desc": "Monkey D Luffy"
+  },
+  {
+    "slug": "sasuke",
+    "title": "Sasuke",
+    "src": "/photos/sasuke.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "naruto",
+    "tags": ["naruto", "ai", "sasuke", "naruto uzumaki"],
+    "desc": "Janda Kembang"
+  },
+  {
+    "slug": "trunks",
+    "title": "Trunks",
+    "src": "/photos/trunks.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "dragonball",
+    "tags": ["dragonball", "ai", "Trunks", "dragon ball z"],
+    "desc": "This is Warga Namek"
+  },
+  {
+    "slug": "usopp",
+    "title": "Usopp",
+    "src": "/photos/usopp.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "onepiece",
+    "tags": ["one piece", "ai", "usopp"],
+    "desc": "Monkey D Luffy"
+  },
+  {
+    "slug": "zoro",
+    "title": "Zoro",
+    "src": "/photos/zoro.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "onepiece",
+    "tags": ["one piece", "ai", "zoro"],
+    "desc": "Monkey D Luffy"
+  },
+  {
+    "slug": "harry-potter",
+    "title": "Harry Potter",
+    "src": "/photos/harry-potter.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "harrypotter",
+    "tags": ["harry potter", "ai"],
+    "desc": "Harry Potahhhhhh"
+  },
+  {
+    "slug": "harry-potter-2",
+    "title": "Harry Potter",
+    "src": "/photos/harry-potter-2.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "harrypotter",
+    "tags": ["harry potter", "ai"],
+    "desc": "Harry Potahhhhhh"
+  },
+  {
+    "slug": "harry-potter-3",
+    "title": "Harry Potter",
+    "src": "/photos/harry-potter-3.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "harrypotter",
+    "tags": ["harry potter", "ai"],
+    "desc": "Harry Potahhhhhh"
+  },
+  {
+    "slug": "bubur-ayam",
+    "title": "Bubur Ayam",
+    "src": "/photos/bubur-ayam.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "food",
+    "tags": ["bubur ayam", "chicken porridge", "ai"],
+    "desc": "Burrrr burrr yammmm"
+  },
+  {
+    "slug": "karedok",
+    "title": "Karedok",
+    "src": "/photos/karedok.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "food",
+    "tags": ["Karedok", "Bahasa inggrisnya karedok", "ai"],
+    "desc": "DOk dokk wi wokk de tokk"
+  },
+  {
+    "slug": "sayur-asem",
+    "title": "Sayur Asem",
+    "src": "/photos/sayur-asem.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "food",
+    "tags": ["sayur asem", "hasem siga jurik", "ai"],
+    "desc": "Makanan apa yang selalu basi? ya sayur asem karena asemm kocakk"
+  },
+  {
+    "slug": "bmw-e30",
+    "title": "BMW E 30",
+    "src": "/photos/bmw.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "car",
+    "tags": ["bmw", "e-30", "bmw-e-30", "classic sport car", "car", "ai"],
+    "desc": "BMW ni bosss",
+    "featured": true
+  },
+  {
+    "slug": "bmw-2002",
+    "title": "BMW 2002",
+    "src": "/photos/bmw-sketch.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "car",
+    "tags": ["bmw", "2002", "bmw 2002", "sport car", "classic car", "ai", "sketch"],
+    "desc": "BMW ni bosss"
+  },
+  {
+    "slug": "mercedes-w113pagoda",
+    "title": "Mercedes Benz W 113 (Pagoda)",
+    "src": "/photos/mercedes.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "car",
+    "tags": ["Pagoda", "mercedes", "Mercedes Benz", "mercedes benz w 113", "classic car", "car", "ai", "sketch"],
+    "desc": "MERCYYYYY ni bosss"
+  },
+  {
+    "slug": "mercedes-w123",
+    "title": "Mercedes Benz W 123",
+    "src": "/photos/mercedes-sketch.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "car",
+    "tags": ["mercedes", "Mercedes Benz", "mercedes benz w 123", "classic car", "car", "ai", "sketch"],
+    "desc": "MERCYYYYY ni bosss"
+  },
+  {
+    "slug": "jakarta-lamp",
+    "title": "Jakarta Lamp",
+    "src": "/photos/jakarta-lamp.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "city",
+    "tags": ["jakarta", "City", "Metropolitan", "ai"],
+    "desc": "JKT ni bosss"
+  },
+  {
+    "slug": "bogor-lamp",
+    "title": "Bogor Lamp",
+    "src": "/photos/bogor-lamp.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "city",
+    "tags": ["Bogor", "City", "Rain City", "ai"],
+    "desc": "UJAN TERUS ni bosss"
+  },
+  {
+    "slug": "bandung-lamp",
+    "title": "Bandung Lamp",
+    "src": "/photos/bandung-lamp.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "city",
+    "tags": ["Bandung", "City", "Romance City", "ai"],
+    "desc": "UJAN TERUS ni bosss"
+  },
+  {
+    "slug": "cat",
+    "title": "Three Musketeers Cat",
+    "src": "/photos/cat.jpg",
+    "w": 1600,
+    "h": 1200,
+    "category": "cat",
+    "tags": ["cat", "animal", "ai"],
+    "desc": "Three Musketeers Cat"
+  },
+  {
+    "slug": "cat-2",
+    "title": "Cat Cartoon",
+    "src": "/photos/cat-2.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "cat",
+    "tags": ["cat", "animal", "ai"],
+    "desc": "Ciko"
+  },
+  {
+    "slug": "cat-3",
+    "title": "Cat - Cartoon",
+    "src": "/photos/cat-3.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "cat",
+    "tags": ["cat", "animal", "ai"],
+    "desc": "Cat"
+  },
+  {
+    "slug": "cat-4",
+    "title": "Cat - Duo oon",
+    "src": "/photos/cat-4.jpg",
+    "w": 1600,
+    "h": 1200,
+    "category": "cat",
+    "tags": ["cat", "animal", "ai"],
+    "desc": "Duo Oon Cat"
+  },
+  {
+    "slug": "monas-cyberpunk",
+    "title": "Monumen Nasional (Cyberpunk Version)",
+    "src": "/photos/monas-cyberpunk.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "city",
+    "tags": ["monas", "Jakarta", "Cityscape", "AI"],
+    "desc": "Monas Cyberpunk Mode ON"
+  },
+  {
+    "slug": "bundaran-hi-cyberpunk",
+    "title": "Bundaran HI (Cyberpunk Version)",
+    "src": "/photos/hi-cyberpunk.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "city",
+    "tags": ["Bundaran HI", "Jakarta", "Cityscape", "AI"],
+    "desc": "Bundaran HI Cyberpunk Mode ON"
+  },
+  {
+    "slug": "gbk-cyberpunk",
+    "title": "Gelora Bung Karno Stadium (Cyberpunk Version)",
+    "src": "/photos/hi-cyberpunk.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "city",
+    "tags": ["GBK", "Jakarta", "Cityscape", "AI"],
+    "desc": "Bundaran HI Cyberpunk Mode ON"
+  },
+  {
+    "slug": "jogging-jkt",
+    "title": "Jogging on Car Free Day Jakarta",
+    "src": "/photos/jogging-jkt.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "city",
+    "tags": ["Jogging", "CFD", "Car Free Day", "Jakarta", "Cityscape", "AI"],
+    "desc": "Car Free Day Jakarta"
+  },
+  {
+    "slug": "picnic-jkt",
+    "title": "Picnic on Car Free Day Jakarta",
+    "src": "/photos/picnic-jkt.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "city",
+    "tags": ["Picnic", "CFD", "Car Free Day", "Jakarta", "Cityscape", "AI"],
+    "desc": "Picnic Jakarta"
+  },
+  {
+    "slug": "family-joggingjkt",
+    "title": "Family Jogging on Car Free Day Jakarta",
+    "src": "/photos/family-jogging-jkt.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "city",
+    "tags": ["Family", "Jogging", "CFD", "Car Free Day", "Jakarta", "Cityscape", "AI"],
+    "desc": "Car Free Day Jakarta"
+  },
+  {
+    "slug": "horror",
+    "title": "Horror",
+    "src": "/photos/horror.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "horror",
+    "tags": ["Horror", "AI"],
+    "desc": "Horroraaaa"
+  },
+  {
+    "slug": "horror-2",
+    "title": "Horror",
+    "src": "/photos/horror-2.jpg",
+    "w": 1600,
+    "h": 1200,
+    "category": "horror",
+    "tags": ["Horror", "AI"],
+    "desc": "Horroraaaa"
+  }
+]
