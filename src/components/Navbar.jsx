@@ -5,16 +5,33 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import SearchBox from "./SearchBox";
-import { allItems } from "@/lib/data";
 
 export default function Navbar({ cats = [] }) {
   const [open, setOpen] = useState(false);
+  const [items, setItems] = useState([]); // data untuk SearchBox
+
+  /* --- Ambil data untuk SearchBox (aman di client, tanpa node:fs) --- */
+  useEffect(() => {
+    let alive = true;
+    (async () => {
+      try {
+        // relative dari src/components ke /data/photos.json
+        const mod = await import("../../data/photos.json");
+        const data = (mod && (mod.default ?? mod)) || [];
+        if (alive) setItems(Array.isArray(data) ? data : []);
+      } catch {
+        if (alive) setItems([]);
+      }
+    })();
+    return () => { alive = false; };
+  }, []);
 
   /* --- Blur saat scroll --- */
   useEffect(() => {
     const header = document.getElementById("site-header");
     if (!header) return;
-    const onScroll = () => header.classList.toggle("is-scrolled", window.scrollY > 4);
+    const onScroll = () =>
+      header.classList.toggle("is-scrolled", window.scrollY > 4);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
@@ -61,7 +78,7 @@ export default function Navbar({ cats = [] }) {
 
         {/* Search (desktop) */}
         <div className="flex-1 max-w-2xl lg:max-w-3xl hidden sm:block">
-          <SearchBox items={allItems} />
+          <SearchBox items={items} />
         </div>
 
         {/* Explore (desktop) */}
@@ -150,7 +167,7 @@ export default function Navbar({ cats = [] }) {
 
           {/* SearchBox di mobile */}
           <div className="mt-4">
-            <SearchBox items={allItems} />
+            <SearchBox items={items} />
           </div>
 
           <div className="mt-6 grid gap-3">
