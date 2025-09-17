@@ -7,11 +7,6 @@ import { allCategories } from "../../lib/data";
 export const metadata = {
   title: "Iful AI Art",
   description: "Kurasi visual AI.",
-  icons: {
-    icon: "/favicon.ico",       // default
-    shortcut: "/favicon.ico",   // untuk beberapa browser
-    apple: "/apple-touch-icon.png", // kalau kamu punya versi iOS
-  },
 };
 
 export default function RootLayout({ children }) {
@@ -19,19 +14,23 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="id">
-      <body>
-        {/* Header selalu fixed */}
+      {/* Jadikan body kolom penuh-tinggi */}
+      <body className="min-h-screen min-h-dvh flex flex-col bg-white text-zinc-900">
+        {/* Header selalu menempel */}
         <header
           id="site-header"
-          className="fixed top-0 left-0 right-0 z-50 bg-white text-zinc-900 border-b border-zinc-200"
+          className="sticky top-0 z-50 bg-white text-zinc-900 border-b border-zinc-200"
         >
           <div className="max-w-6xl mx-auto px-4 py-3">
             <Navbar cats={cats} />
           </div>
         </header>
 
-        {/* tambahkan padding-top agar konten tidak ketutup navbar */}
-        <main className="max-w-6xl mx-auto px-4 pt-24 pb-6">{children}</main>
+        {/* Main di-set flex-1 agar mendorong footer ke bawah */}
+        <main className="flex-1 w-full">
+          <div className="max-w-6xl mx-auto px-4 py-6">{children}</div>
+        </main>
+
         <Footer links={[{ label: "Categories", href: "/category" }]} />
       </body>
     </html>
