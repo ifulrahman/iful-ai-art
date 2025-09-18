@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { searchItems } from "@/lib/data";
 import GalleryWithSeeMore from "@/components/GalleryWithSeeMore";
+import Image from "next/image";
 
 export const metadata = { title: "Search — iful.ai.art" };
 
@@ -21,8 +22,15 @@ export default function SearchPage({ searchParams }) {
         results.length > 0 ? (
           <GalleryWithSeeMore items={results} initial={18} step={18} anchorId="results" />
         ) : (
-          <div className="rounded-xl border border-zinc-200 p-6">
-            <p className="text-zinc-700 mb-3">No results found.</p>
+          <div className="rounded-xl border border-zinc-200 p-6 flex flex-col items-center gap-4">
+            <Image
+              src="/no-result-found.png"
+              alt="No results illustration"
+              width={400}
+              height={300}
+              className="w-full max-w-sm h-auto"
+              priority
+            />
             <Link href="/" className="text-sm font-medium underline">
               Back to home
             </Link>
