@@ -101,7 +101,7 @@ export default function Navbar({ cats = [] }) {
         {/* Socials (desktop only) */}
         <div className="hidden sm:flex items-center gap-3">
           <a
-            href="https://instagram.com/"
+            href="https://www.instagram.com/iful.ai.art?igsh=MTkxMmd4NHo4Z2RmZA=="
             target="_blank"
             rel="noreferrer"
             aria-label="Instagram"
@@ -110,7 +110,7 @@ export default function Navbar({ cats = [] }) {
             <InstagramIcon className="h-4 w-4 text-zinc-700" />
           </a>
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/muhammad-syaiful-rahman/"
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"
@@ -211,7 +211,7 @@ export default function Navbar({ cats = [] }) {
             </div>
             <div className="flex gap-3">
               <a
-                href="https://instagram.com/"
+                href="https://www.instagram.com/iful.ai.art?igsh=MTkxMmd4NHo4Z2RmZA=="
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Instagram"
@@ -220,7 +220,7 @@ export default function Navbar({ cats = [] }) {
                 <InstagramIcon className="h-4 w-4 text-zinc-700" />
               </a>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/muhammad-syaiful-rahman/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn"
