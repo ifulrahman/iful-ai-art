@@ -168,7 +168,7 @@ export default function Navbar({ cats = [] }) {
 
           {/* SearchBox di mobile */}
           <div className="mt-4">
-            <SearchBox items={items} />
+            <SearchBox items={items} onDone={() => setOpen(false)} />
           </div>
 
           <div className="mt-6 grid gap-3">

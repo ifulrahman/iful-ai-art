@@ -1,3 +1,4 @@
+// src/components/SearchBox.jsx
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -6,8 +7,9 @@ import { useRouter } from "next/navigation";
 /**
  * items: array foto (punya title, desc, tags, category, dll)
  * className: opsional untuk membungkus input
+ * onDone: callback opsional (contoh: tutup drawer mobile)
  */
-export default function SearchBox({ items = [], className = "" }) {
+export default function SearchBox({ items = [], className = "", onDone }) {
   const router = useRouter();
   const [q, setQ] = useState("");
   const [open, setOpen] = useState(false);
@@ -19,8 +21,9 @@ export default function SearchBox({ items = [], className = "" }) {
     if (!text) return [];
     // cari yang mengandung query
     const found = items.filter((p) => {
-      const hay =
-        `${p.title} ${p.category} ${p.desc || ""} ${(p.tags || []).join(" ")}`.toLowerCase();
+      const hay = (
+        `${p.title} ${p.category} ${p.desc || ""} ${(p.tags || []).join(" ")}`
+      ).toLowerCase();
       return hay.includes(text);
     });
 
@@ -48,6 +51,7 @@ export default function SearchBox({ items = [], className = "" }) {
     if (!query) return;
     setOpen(false);
     router.push(`/search?q=${encodeURIComponent(query)}`);
+    onDone?.(); // <-- panggil supaya navbar mobile tertutup
   }
 
   function onKeyDown(e) {
