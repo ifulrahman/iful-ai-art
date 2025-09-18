@@ -6,8 +6,8 @@
     "w": 1600,
     "h": 1200,
     "category": "football",
-    "tags": ["robot", "CR7", "Ronaldo", "ai"],
-    "desc": "Siiiuuuuu"
+    "tags": ["cristiano ronaldo", "CR7", "football", "soccer player"],
+    "desc": "A portrait of Cristiano Ronaldo in an iconic pose."
   },
   {
     "slug": "ronaldo-2",
@@ -16,9 +16,8 @@
     "w": 1600,
     "h": 1200,
     "category": "football",
-    "tags": ["robot", "CR7", "Ronaldo", "ai"],
-    "desc": "P for Penaldo",
-    "featured": true
+    "tags": ["cristiano ronaldo", "CR7", "football", "soccer player"],
+    "desc": "An illustration of Cristiano Ronaldo."
   },
   {
     "slug": "messi",
@@ -27,8 +26,9 @@
     "w": 1600,
     "h": 1200,
     "category": "football",
-    "tags": ["GOAT", "Messi", "Lionel Messi", "ai"],
-    "desc": "Ankara messi, angkara messi"
+    "tags": ["lionel messi", "messi", "football", "soccer player"],
+    "desc": "An illustration of Lionel Messi playing football.",
+    "featured": true
   },
   {
     "slug": "messi-2",
@@ -37,8 +37,8 @@
     "w": 1600,
     "h": 1200,
     "category": "football",
-    "tags": ["GOAT", "Messi", "Lionel Messi", "ai"],
-    "desc": "Greatest of all time"
+    "tags": ["lionel messi", "messi", "football", "soccer player"],
+    "desc": "A portrait of Lionel Messi, the Argentinian soccer player."
   },
   {
     "slug": "neymar",
@@ -47,8 +47,8 @@
     "w": 1600,
     "h": 1200,
     "category": "football",
-    "tags": ["GOAT", "Neymar", "Jogo de bola", "ai"],
-    "desc": "Para dilu baila"
+    "tags": ["neymar", "football", "soccer player"],
+    "desc": "An illustration of Neymar Jr."
   },
   {
     "slug": "neymar-jr",
@@ -57,8 +57,8 @@
     "w": 1600,
     "h": 1200,
     "category": "football",
-    "tags": ["GOAT", "Neymar", "Jogo de bola", "ai"],
-    "desc": "Para dilu baila"
+    "tags": ["neymar", "football", "soccer player"],
+    "desc": "A portrait of Neymar Jr in action on the field."
   },
   {
     "slug": "gohan",
@@ -67,8 +67,8 @@
     "w": 1600,
     "h": 1200,
     "category": "dragonball",
-    "tags": ["dragonball", "ai", "frieza", "dragon ball z"],
-    "desc": "This is Warga Namek"
+    "tags": ["gohan", "dragon ball", "anime"],
+    "desc": "A portrait of Gohan, a character from Dragon Ball Z."
   },
   {
     "slug": "frieza",
@@ -77,8 +77,8 @@
     "w": 1600,
     "h": 1200,
     "category": "dragonball",
-    "tags": ["dragonball", "ai", "frieza", "dragon ball z"],
-    "desc": "This is Warga Namek"
+    "tags": ["frieza", "dragon ball", "anime"],
+    "desc": "A portrait of Frieza, a character from Dragon Ball Z."
   },
   {
     "slug": "goku",
@@ -87,8 +87,9 @@
     "w": 1600,
     "h": 1200,
     "category": "dragonball",
-    "tags": ["dragonball", "ai", "Goku", "dragon ball z"],
-    "desc": "This is Warga Namek"
+    "tags": ["goku", "dragon ball", "anime"],
+    "desc": "A portrait of Goku, the main character from Dragon Ball Z.",
+    "featured": true
   },
   {
     "slug": "naruto",
@@ -97,9 +98,8 @@
     "w": 1600,
     "h": 1200,
     "category": "naruto",
-    "tags": ["naruto", "ai", "naruto uzumaki"],
-    "desc": "Rasengannnnn",
-    "featured": true
+    "tags": ["naruto", "naruto uzumaki", "anime"],
+    "desc": "A portrait of Naruto Uzumaki using the Rasengan."
   },
   {
     "slug": "kakashi",
@@ -108,8 +108,8 @@
     "w": 1600,
     "h": 1200,
     "category": "naruto",
-    "tags": ["naruto", "ai", "kakashi"],
-    "desc": "Rasengannnnn"
+    "tags": ["kakashi", "kakashi hatake", "naruto", "anime"],
+    "desc": "A portrait of Kakashi, a character from Naruto."
   },
   {
     "slug": "hinata",
@@ -118,8 +118,8 @@
     "w": 1600,
     "h": 1200,
     "category": "naruto",
-    "tags": ["naruto", "ai", "hinata"],
-    "desc": "Rasengannnnn"
+    "tags": ["hinata", "hinata hyuga", "naruto", "anime"],
+    "desc": "A portrait of Hinata Hyuga, a character from Naruto."
   },
   {
     "slug": "luffy",
@@ -128,8 +128,8 @@
     "w": 1600,
     "h": 1200,
     "category": "onepiece",
-    "tags": ["one piece", "ai", "luffy"],
-    "desc": "Monkey D Luffy"
+    "tags": ["luffy", "monkey d luffy", "one piece", "anime"],
+    "desc": "A portrait of Monkey D Luffy, the main character from One Piece."
   },
   {
     "slug": "nami",
@@ -138,8 +138,8 @@
     "w": 1600,
     "h": 1200,
     "category": "onepiece",
-    "tags": ["one piece", "ai", "nami"],
-    "desc": "Rasengannnnn"
+    "tags": ["nami", "one piece", "anime"],
+    "desc": "A portrait of Nami, a character from One Piece."
   },
   {
     "slug": "piccolo",
@@ -148,8 +148,8 @@
     "w": 1600,
     "h": 1200,
     "category": "dragonball",
-    "tags": ["dragonball", "ai", "Piccolo", "dragon ball z"],
-    "desc": "This is Warga Namek"
+    "tags": ["piccolo", "dragon ball", "anime"],
+    "desc": "A portrait of Piccolo, a character from Dragon Ball Z."
   },
   {
     "slug": "sakura",
@@ -158,8 +158,8 @@
     "w": 1600,
     "h": 1200,
     "category": "naruto",
-    "tags": ["naruto", "ai", "sakura", "naruto uzumaki"],
-    "desc": "Janda Kembang"
+    "tags": ["sakura", "sakura haruno", "naruto", "anime"],
+    "desc": "A portrait of Sakura Haruno, a character from Naruto."
   },
   {
     "slug": "sanji",
@@ -168,8 +168,8 @@
     "w": 1600,
     "h": 1200,
     "category": "onepiece",
-    "tags": ["one piece", "ai", "sanji"],
-    "desc": "Monkey D Luffy"
+    "tags": ["sanji", "vinsmoke sanji", "one piece", "anime"],
+    "desc": "A portrait of Sanji, a character from One Piece."
   },
   {
     "slug": "sasuke",
@@ -178,8 +178,8 @@
     "w": 1600,
     "h": 1200,
     "category": "naruto",
-    "tags": ["naruto", "ai", "sasuke", "naruto uzumaki"],
-    "desc": "Janda Kembang"
+    "tags": ["sasuke", "sasuke uchiha", "naruto", "anime"],
+    "desc": "A portrait of Sasuke Uchiha, a character from Naruto."
   },
   {
     "slug": "trunks",
@@ -188,8 +188,8 @@
     "w": 1600,
     "h": 1200,
     "category": "dragonball",
-    "tags": ["dragonball", "ai", "Trunks", "dragon ball z"],
-    "desc": "This is Warga Namek"
+    "tags": ["trunks", "dragon ball", "anime"],
+    "desc": "A portrait of Trunks, a character from Dragon Ball Z."
   },
   {
     "slug": "usopp",
@@ -198,8 +198,8 @@
     "w": 1600,
     "h": 1200,
     "category": "onepiece",
-    "tags": ["one piece", "ai", "usopp"],
-    "desc": "Monkey D Luffy"
+    "tags": ["usopp", "one piece", "anime"],
+    "desc": "A portrait of Usopp, a character from One Piece."
   },
   {
     "slug": "zoro",
@@ -208,8 +208,8 @@
     "w": 1600,
     "h": 1200,
     "category": "onepiece",
-    "tags": ["one piece", "ai", "zoro"],
-    "desc": "Monkey D Luffy"
+    "tags": ["zoro", "roronoa zoro", "one piece", "anime"],
+    "desc": "A portrait of Roronoa Zoro, a character from One Piece."
   },
   {
     "slug": "harry-potter",
@@ -218,8 +218,8 @@
     "w": 1600,
     "h": 1200,
     "category": "harrypotter",
-    "tags": ["harry potter", "ai"],
-    "desc": "Harry Potahhhhhh"
+    "tags": ["harry potter", "fantasy", "magic", "film"],
+    "desc": "An illustration of Harry Potter, the main character of the fantasy series."
   },
   {
     "slug": "harry-potter-2",
@@ -228,8 +228,8 @@
     "w": 1600,
     "h": 1200,
     "category": "harrypotter",
-    "tags": ["harry potter", "ai"],
-    "desc": "Harry Potahhhhhh"
+    "tags": ["harry potter", "fantasy", "magic", "film"],
+    "desc": "An illustration of Harry Potter."
   },
   {
     "slug": "harry-potter-3",
@@ -238,8 +238,8 @@
     "w": 1600,
     "h": 1200,
     "category": "harrypotter",
-    "tags": ["harry potter", "ai"],
-    "desc": "Harry Potahhhhhh"
+    "tags": ["harry potter", "fantasy", "magic", "film"],
+    "desc": "An illustration of Harry Potter with a magic wand."
   },
   {
     "slug": "bubur-ayam",
@@ -248,8 +248,8 @@
     "w": 1600,
     "h": 1200,
     "category": "food",
-    "tags": ["bubur ayam", "chicken porridge", "ai"],
-    "desc": "Burrrr burrr yammmm"
+    "tags": ["chicken porridge", "bubur ayam", "indonesian food", "culinary"],
+    "desc": "An image of the Indonesian dish Bubur Ayam (chicken porridge)."
   },
   {
     "slug": "karedok",
@@ -258,8 +258,8 @@
     "w": 1600,
     "h": 1200,
     "category": "food",
-    "tags": ["Karedok", "Bahasa inggrisnya karedok", "ai"],
-    "desc": "DOk dokk wi wokk de tokk"
+    "tags": ["karedok", "indonesian food", "culinary"],
+    "desc": "An image of Karedok, a raw vegetable salad from Sunda, Indonesia."
   },
   {
     "slug": "sayur-asem",
@@ -268,8 +268,8 @@
     "w": 1600,
     "h": 1200,
     "category": "food",
-    "tags": ["sayur asem", "hasem siga jurik", "ai"],
-    "desc": "Makanan apa yang selalu basi? ya sayur asem karena asemm kocakk"
+    "tags": ["sayur asem", "indonesian food", "culinary"],
+    "desc": "An image of Sayur Asem, a sour vegetable soup from Indonesia."
   },
   {
     "slug": "bmw-e30",
@@ -278,9 +278,8 @@
     "w": 1600,
     "h": 1200,
     "category": "car",
-    "tags": ["bmw", "e-30", "bmw-e-30", "classic sport car", "car", "ai"],
-    "desc": "BMW ni bosss",
-    "featured": true
+    "tags": ["bmw", "e30", "classic car", "sports car"],
+    "desc": "A portrait of the classic BMW E30 car."
   },
   {
     "slug": "bmw-2002",
@@ -289,8 +288,8 @@
     "w": 1600,
     "h": 1200,
     "category": "car",
-    "tags": ["bmw", "2002", "bmw 2002", "sport car", "classic car", "ai", "sketch"],
-    "desc": "BMW ni bosss"
+    "tags": ["bmw", "2002", "classic car", "sketch"],
+    "desc": "A sketch of the classic BMW 2002 car."
   },
   {
     "slug": "mercedes-w113pagoda",
@@ -299,8 +298,9 @@
     "w": 1600,
     "h": 1200,
     "category": "car",
-    "tags": ["Pagoda", "mercedes", "Mercedes Benz", "mercedes benz w 113", "classic car", "car", "ai", "sketch"],
-    "desc": "MERCYYYYY ni bosss"
+    "tags": ["mercedes", "w113", "pagoda", "classic car"],
+    "desc": "A portrait of the classic Mercedes Benz W113, also known as Pagoda.",
+    "featured": true
   },
   {
     "slug": "mercedes-w123",
@@ -309,8 +309,8 @@
     "w": 1600,
     "h": 1200,
     "category": "car",
-    "tags": ["mercedes", "Mercedes Benz", "mercedes benz w 123", "classic car", "car", "ai", "sketch"],
-    "desc": "MERCYYYYY ni bosss"
+    "tags": ["mercedes", "w123", "classic car", "sketch"],
+    "desc": "A sketch of the classic Mercedes Benz W123."
   },
   {
     "slug": "jakarta-lamp",
@@ -319,8 +319,8 @@
     "w": 1600,
     "h": 1200,
     "category": "city",
-    "tags": ["jakarta", "City", "Metropolitan", "ai"],
-    "desc": "JKT ni bosss"
+    "tags": ["jakarta", "cityscape", "night", "lights"],
+    "desc": "A view of Jakarta's city lights at night."
   },
   {
     "slug": "bogor-lamp",
@@ -329,8 +329,8 @@
     "w": 1600,
     "h": 1200,
     "category": "city",
-    "tags": ["Bogor", "City", "Rain City", "ai"],
-    "desc": "UJAN TERUS ni bosss"
+    "tags": ["bogor", "cityscape", "night", "lights"],
+    "desc": "A view of Bogor's city lights at night."
   },
   {
     "slug": "bandung-lamp",
@@ -339,8 +339,8 @@
     "w": 1600,
     "h": 1200,
     "category": "city",
-    "tags": ["Bandung", "City", "Romance City", "ai"],
-    "desc": "UJAN TERUS ni bosss"
+    "tags": ["bandung", "cityscape", "night", "lights"],
+    "desc": "A view of Bandung's city lights at night."
   },
   {
     "slug": "cat",
@@ -349,8 +349,8 @@
     "w": 1600,
     "h": 1200,
     "category": "cat",
-    "tags": ["cat", "animal", "ai"],
-    "desc": "Three Musketeers Cat"
+    "tags": ["cat", "animal", "musketeers"],
+    "desc": "An image of three cats posed like the Three Musketeers."
   },
   {
     "slug": "cat-2",
@@ -359,8 +359,8 @@
     "w": 1600,
     "h": 1200,
     "category": "cat",
-    "tags": ["cat", "animal", "ai"],
-    "desc": "Ciko"
+    "tags": ["cat", "animal", "cartoon"],
+    "desc": "A cartoon illustration of a cat."
   },
   {
     "slug": "cat-3",
@@ -369,8 +369,8 @@
     "w": 1600,
     "h": 1200,
     "category": "cat",
-    "tags": ["cat", "animal", "ai"],
-    "desc": "Cat"
+    "tags": ["cat", "animal", "cartoon"],
+    "desc": "A cartoon illustration of a cat."
   },
   {
     "slug": "cat-4",
@@ -379,8 +379,8 @@
     "w": 1600,
     "h": 1200,
     "category": "cat",
-    "tags": ["cat", "animal", "ai"],
-    "desc": "Duo Oon Cat"
+    "tags": ["cat", "animal"],
+    "desc": "A portrait of two cute cats."
   },
   {
     "slug": "monas-cyberpunk",
@@ -389,8 +389,8 @@
     "w": 1600,
     "h": 1200,
     "category": "city",
-    "tags": ["monas", "Jakarta", "Cityscape", "AI"],
-    "desc": "Monas Cyberpunk Mode ON"
+    "tags": ["monas", "jakarta", "cyberpunk", "cityscape"],
+    "desc": "The National Monument (Monas) in a cyberpunk artistic style."
   },
   {
     "slug": "bundaran-hi-cyberpunk",
@@ -399,8 +399,8 @@
     "w": 1600,
     "h": 1200,
     "category": "city",
-    "tags": ["Bundaran HI", "Jakarta", "Cityscape", "AI"],
-    "desc": "Bundaran HI Cyberpunk Mode ON"
+    "tags": ["bundaran HI", "jakarta", "cyberpunk", "cityscape"],
+    "desc": "The Hotel Indonesia Roundabout (Bundaran HI) in a cyberpunk artistic style."
   },
   {
     "slug": "gbk-cyberpunk",
@@ -409,8 +409,8 @@
     "w": 1600,
     "h": 1200,
     "category": "city",
-    "tags": ["GBK", "Jakarta", "Cityscape", "AI"],
-    "desc": "Bundaran HI Cyberpunk Mode ON"
+    "tags": ["GBK", "jakarta", "cyberpunk", "stadium"],
+    "desc": "Gelora Bung Karno Stadium (GBK) in a cyberpunk artistic style."
   },
   {
     "slug": "jogging-jkt",
@@ -419,8 +419,8 @@
     "w": 1600,
     "h": 1200,
     "category": "city",
-    "tags": ["Jogging", "CFD", "Car Free Day", "Jakarta", "Cityscape", "AI"],
-    "desc": "Car Free Day Jakarta"
+    "tags": ["car free day", "jakarta", "jogging", "activity"],
+    "desc": "An illustration of people jogging during Car Free Day in Jakarta."
   },
   {
     "slug": "picnic-jkt",
@@ -429,8 +429,8 @@
     "w": 1600,
     "h": 1200,
     "category": "city",
-    "tags": ["Picnic", "CFD", "Car Free Day", "Jakarta", "Cityscape", "AI"],
-    "desc": "Picnic Jakarta"
+    "tags": ["car free day", "jakarta", "picnic", "activity"],
+    "desc": "An illustration of people picnicking during Car Free Day in Jakarta."
   },
   {
     "slug": "family-joggingjkt",
@@ -439,8 +439,8 @@
     "w": 1600,
     "h": 1200,
     "category": "city",
-    "tags": ["Family", "Jogging", "CFD", "Car Free Day", "Jakarta", "Cityscape", "AI"],
-    "desc": "Car Free Day Jakarta"
+    "tags": ["family", "car free day", "jakarta", "jogging"],
+    "desc": "An illustration of a family jogging during Car Free Day in Jakarta."
   },
   {
     "slug": "horror",
@@ -449,8 +449,8 @@
     "w": 1600,
     "h": 1200,
     "category": "horror",
-    "tags": ["Horror", "AI"],
-    "desc": "Horroraaaa"
+    "tags": ["horror", "scary", "mystery"],
+    "desc": "A horror-style illustration."
   },
   {
     "slug": "horror-2",
@@ -459,7 +459,7 @@
     "w": 1600,
     "h": 1200,
     "category": "horror",
-    "tags": ["Horror", "AI"],
-    "desc": "Horroraaaa"
+    "tags": ["horror", "scary", "mystery"],
+    "desc": "A horror-style illustration."
   }
 ]
