@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { byCategory, allCategories } from "../../../../lib/data";
 import Feed from "../../../components/Feed";
+import { Suspense } from "react";
 
 // pre-generate semua slug category
 export async function generateStaticParams() {
@@ -68,7 +69,9 @@ export default function CategoryPage({ params }) {
       <h3 className="text-xl md:text-2xl font-extrabold tracking-tight mb-6">
           Explore {title}
       </h3>
-      <Feed items={items} />
+      <Suspense fallback={null}>
+         <Feed items={items} />
+      </Suspense>
     </section>
   );
 }
