@@ -3,6 +3,7 @@ import HighlightRow from "../components/HighlightRow";
 import CategoryRow from "../components/CategoryRow";
 import GalleryWithSeeMore from "../components/GalleryWithSeeMore";
 import Link from "next/link";
+import { ChevronDown } from "lucide-react";
 
 export default function Page() {
   const items = allPhotos();             // semua foto (SSG)
@@ -22,8 +23,12 @@ export default function Page() {
         <HighlightRow items={top} />
 
         <div className="flex justify-center mt-6">
-          <a href="#photos" className="rounded-full px-5 py-2.5 bg-zinc-100 ring-1 ring-zinc-300 hover:bg-zinc-200 text-sm font-medium no-underline">
+          <a
+            href="#photos"
+            className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 bg-zinc-100 ring-1 ring-zinc-300 hover:bg-zinc-200 text-sm font-medium no-underline transition-colors"
+          >
             See more
+            <ChevronDown size={16} className="opacity-70" />
           </a>
         </div>
       </section>

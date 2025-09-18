@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import SearchBox from "./SearchBox";
+import { X } from "lucide-react";
 
 export default function Navbar({ cats = [] }) {
   const [open, setOpen] = useState(false);
@@ -161,7 +162,7 @@ export default function Navbar({ cats = [] }) {
               aria-label="Close menu"
               className="rounded-full p-2 ring-1 ring-zinc-200"
             >
-              <CloseIcon className="h-5 w-5" />
+              <X className="h-5 w-5" />
             </button>
           </div>
 
@@ -247,13 +248,6 @@ function MenuIcon({ className }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
       <path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z" />
-    </svg>
-  );
-}
-function CloseIcon({ className }) {
-  return (
-    <svg className={className} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-      <path d="M18.3 5.7 12 12l6.3 6.3-1.4 1.4L12 13.4 5.7 19.7 4.3 18.3 10.6 12 4.3 5.7 5.7 4.3 12 10.6 18.3 4.3z" />
     </svg>
   );
 }
