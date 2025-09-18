@@ -9,7 +9,7 @@ export async function generateMetadata({ params }) {
   const p = bySlug(params.slug);
   if (!p) return {};
   return {
-    title: `${p.title} — AI Visual Board`,
+    title: `${p.title} — Iful AI Art`,
     description: p.desc ?? p.title,
     openGraph: {
       images: [{ url: p.src, width: p.w, height: p.h, alt: p.title }],

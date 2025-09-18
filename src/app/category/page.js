@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { allCategories, allPhotos } from "../../../lib/data";
 
-export const metadata = { title: "Categories — AI Visual Board" };
+export const metadata = { title: "Categories — Iful AI Art" };
 
 export default function Categories() {
   const cats = allCategories();

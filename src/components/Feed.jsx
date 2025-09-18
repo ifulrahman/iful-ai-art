@@ -80,7 +80,7 @@ export default function Feed({ items }) {
                 href={`/photo/${selected.slug}`}
                 className="inline-flex items-center gap-2 text-[15px] font-medium text-zinc-900 no-underline hover:underline underline-offset-4"
               >
-                Buka halaman detail
+                View details
                 <svg
                   className="h-4 w-4"
                   viewBox="0 0 20 20"

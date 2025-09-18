@@ -7,7 +7,7 @@ export async function generateStaticParams() {
   return allCategories().map((c) => ({ slug: c }));
 }
 
-export const metadata = { title: "Category — AI Visual Board" };
+export const metadata = { title: "Category — Iful AI Art" };
 
 // helper: ubah slug jadi Title Case (onepiece -> One Piece)
 function titleCase(slug) {
@@ -58,7 +58,7 @@ export default function CategoryPage({ params }) {
 
             {/* Subjudul */}
             <p className="mt-3 max-w-2xl text-white/85 text-sm sm:text-base drop-shadow">
-              Temukan koleksi terbaik bertema #{params.slug}
+              Discover the best collection with the #{params.slug} theme 
             </p>
           </div>
         </div>
