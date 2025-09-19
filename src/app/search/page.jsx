@@ -1,19 +1,27 @@
-// src/app/search/page.jsx
+"use client";
+
+import { Suspense, useMemo } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import { searchItems } from "@/lib/data";
 import GalleryWithSeeMore from "@/components/GalleryWithSeeMore";
+import { searchItems } from "@/lib/data";
 
 export const metadata = { title: "Search — iful.ai.art" };
 
-// Pastikan halaman ini tidak diprerender (wajib untuk halaman berbasis query)
-export const dynamic = "force-dynamic";
-export const revalidate = 0;
-export const fetchCache = "force-no-store";
+export default function SearchPageWrapper() {
+  return (
+    <Suspense fallback={<div className="py-10 text-zinc-500">Loading search…</div>}>
+      <SearchPageInner />
+    </Suspense>
+  );
+}
 
-export default function SearchPage({ searchParams }) {
-  const q = (searchParams?.q ?? "").trim();
-  const results = q ? searchItems(q) : [];
+function SearchPageInner() {
+  const params = useSearchParams();
+  const q = (params.get("q") || "").trim();
+
+  const results = useMemo(() => (q ? searchItems(q) : []), [q]);
 
   return (
     <section>
@@ -21,19 +29,12 @@ export default function SearchPage({ searchParams }) {
         Search results{q ? ` for “${q}”` : ""}
       </h1>
       <p className="text-zinc-500 mb-6">
-        {q
-          ? `${results.length} result${results.length === 1 ? "" : "s"}`
-          : "Type something to search."}
+        {q ? `${results.length} result${results.length === 1 ? "" : "s"}` : "Type something to search."}
       </p>
 
       {q ? (
         results.length > 0 ? (
-          <GalleryWithSeeMore
-            items={results}
-            initial={18}
-            step={18}
-            anchorId="results"
-          />
+          <GalleryWithSeeMore items={results} initial={18} step={18} anchorId="results" />
         ) : (
           <div className="rounded-xl border border-zinc-200 p-6 flex flex-col items-center gap-4">
             <Image
