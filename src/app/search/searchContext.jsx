@@ -1,30 +1,13 @@
 "use client";
 
-import { Suspense, useMemo } from "react";
-import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import GalleryWithSeeMore from "@/components/GalleryWithSeeMore";
 import { searchItems } from "@/lib/data";
+import GalleryWithSeeMore from "@/components/GalleryWithSeeMore";
 
-/**
- * NOTE:
- * - Jangan export `metadata` dari file client.
- * - File ini sudah memakai Suspense agar `useSearchParams()` valid saat build.
- */
-export default function SearchPage() {
-  return (
-    <Suspense fallback={<div className="py-10 text-zinc-500">Loading search…</div>}>
-      <SearchPageInner />
-    </Suspense>
-  );
-}
-
-function SearchPageInner() {
-  const params = useSearchParams();
-  const q = (params.get("q") || "").trim();
-
-  const results = useMemo(() => (q ? searchItems(q) : []), [q]);
+export default function SearchContent({ searchParams }) {
+  const q = (searchParams?.q ?? "").trim();
+  const results = q ? searchItems(q) : [];
 
   return (
     <section>
@@ -40,7 +23,12 @@ function SearchPageInner() {
 
       {q ? (
         results.length > 0 ? (
-          <GalleryWithSeeMore items={results} initial={18} step={18} anchorId="results" />
+          <GalleryWithSeeMore
+            items={results}
+            initial={18}
+            step={18}
+            anchorId="results"
+          />
         ) : (
           <div className="rounded-xl border border-zinc-200 p-6 flex flex-col items-center gap-4">
             <Image
