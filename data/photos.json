@@ -461,5 +461,65 @@
     "category": "horror",
     "tags": ["horror", "scary", "mystery"],
     "desc": "A horror-style illustration."
+  },
+  {
+    "slug": "sonic",
+    "title": "Sonic the Hedgehog",
+    "src": "/photos/sonic.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "gaming",
+    "tags": ["sonic", "hedgehog", "sega", "retro", "gaming"],
+    "desc": "An epic cinematic Sonic illustration with golden rings."
+  },
+  {
+    "slug": "sonic-real-life",
+    "title": "Sonic the Hedgehog (Real Life Version)",
+    "src": "/photos/sonic-real-life.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "gaming",
+    "tags": ["sonic", "blue-blur", "speed", "adventure", "gaming"],
+    "desc": "A fantasy-style Sonic artwork with sunset and landscapes inside."
+  },
+  {
+    "slug": "crash-bandicoot",
+    "title": "Crash Bandicoot",
+    "src": "/photos/ctr.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "gaming",
+    "tags": ["crash", "ctr", "bandicoot", "playstation", "retro", "gaming"],
+    "desc": "Crash Bandicoot smiling with coins, crates, and Aku Aku mask."
+  },
+  {
+    "slug": "crash-bandicoot-real-life",
+    "title": "Crash Bandicoot (Real Life Version)",
+    "src": "/photos/ctr-real-life.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "gaming",
+    "tags": ["crash", "ctr", "adventure", "fun", "gaming"],
+    "desc": "Crash Bandicoot in a vibrant, fantasy landscape with magic glow."
+  },
+  {
+    "slug": "super-mario",
+    "title": "Super Mario",
+    "src": "/photos/super-mario.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "gaming",
+    "tags": ["mario", "nintendo", "plumber", "retro", "gaming"],
+    "desc": "A legendary Super Mario illustration with golden coins."
+  },
+  {
+    "slug": "super-mario-real-life",
+    "title": "Super Mario (Real Life Version)",
+    "src": "/photos/super-mario-real-life.png",
+    "w": 1600,
+    "h": 1200,
+    "category": "gaming",
+    "tags": ["mario", "mushroom-kingdom", "adventure", "hero", "gaming"],
+    "desc": "Cinematic Mario artwork with landscapes and waterfalls inside."
   }
 ]
