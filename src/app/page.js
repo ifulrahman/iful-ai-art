@@ -6,6 +6,7 @@ import CategoryRow from "../components/CategoryRow";
 import GalleryWithSeeMore from "../components/GalleryWithSeeMore";
 import Link from "next/link";
 import { ChevronDown } from "lucide-react";
+import FollowStrip from "../components/FollowStrip";
 
 export default function Page() {
   // ini tetap Server Component (SSG)
@@ -17,6 +18,7 @@ export default function Page() {
 
   return (
     <Suspense fallback={<div className="px-4 py-8 text-zinc-500">Loading…</div>}>
+      <FollowStrip />
       {/* Highlight */}
       <section className="pt-4">
         <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-6">
