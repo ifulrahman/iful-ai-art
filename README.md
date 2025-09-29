@@ -1,3 +1,43 @@
+# Iful AI Art
+
+---
+
+## 📖 Overview
+**Live Preview:** [https://iful-ai-art.netlify.app](https://iful-ai-art.netlify.app)  
+
+**Iful AI Art** is a modern AI-powered gallery website that showcases AI-generated artwork across multiple categories—from football legends to anime characters, cars, and more.  
+It provides a sleek browsing experience with smooth navigation, instant search, category-based filtering, and a visually engaging layout.  
+
+---
+
+## 📸 Screenshots
+![Preview](ss-1.png)  
+![Preview](ss-2.png)  
+![Preview](ss-3.png)  
+![Preview](ss-4.png)  
+
+---
+
+## ✨ Features
+| Feature                  | Description                                                                 |
+|---------------------------|-----------------------------------------------------------------------------|
+| **Explore Gallery**       | Discover featured AI-generated artworks in a modern UI.                    |
+| **Search Content**        | Quickly find artworks by typing keywords in the search bar.                |
+| **Category Browsing**     | Browse artworks by category (Football, Dragonball, Naruto, Cars, etc.).    |
+| **Responsive Design**     | Fully responsive and optimized for desktop, tablet, and mobile.            |
+| **Smooth Navigation**     | Fast and seamless routing with Next.js.                                    |
+| **Minimalist UI**         | Clean, distraction-free interface built with Tailwind CSS & Lucide icons. |
+
+---
+
+## 🛠 Tech Stack
+### Frontend
+- **Next.js** – React framework for production-ready apps with SSR and SSG.  
+- **Tailwind CSS** – Utility-first CSS framework for rapid UI development.  
+- **Lucide React** – https://lucide.dev/ - Lightweight icon library for modern web apps.  
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
